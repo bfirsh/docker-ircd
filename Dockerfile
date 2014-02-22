@@ -10,6 +10,6 @@ RUN chown -R irc:irc /etc/ircd
 ADD run /usr/local/bin/run
 
 USER irc
-EXPOSE 6667:6667
+EXPOSE 6667
 CMD ["/usr/local/bin/run"]
 
